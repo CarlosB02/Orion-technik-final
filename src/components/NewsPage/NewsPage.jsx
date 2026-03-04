@@ -10,6 +10,13 @@ import D2Header from '../Design2/D2Header';
 // 2. Importe a imagem abaixo alterando o nome do ficheiro (ex: 'minha-foto.jpg')
 import HERO_BG_IMAGE from '../../assets/hero-bg-v2.png';
 
+import newsImg1 from '../../assets/hero-bizjet-sunset.png';
+import newsImg2 from '../../assets/asset-management.png';
+import newsImg3 from '../../assets/engineering-support.png';
+import newsImg4 from '../../assets/hero-atr.png';
+import newsImg5 from '../../assets/hero-bizjet.png';
+import newsImg6 from '../../assets/hero-bg-creative.png';
+
 const newsItems = [
     {
         id: 1,
@@ -17,7 +24,7 @@ const newsItems = [
         date: '24 Feb 2024',
         title: 'Precision Engineering: The Future of EASA Part 145 Standards',
         excerpt: 'How Orion Technik is leading the transition to next-generation maintenance protocols with digital twin integration.',
-        image: '/src/assets/hero-bizjet-sunset.png',
+        image: newsImg1,
         size: 'large'
     },
     {
@@ -26,7 +33,7 @@ const newsItems = [
         date: '18 Feb 2024',
         title: 'Dubai Hub Expansion: Strengthening Middle East Operations',
         excerpt: 'A new milestone in our global growth strategy, enhancing local support for our premium fleet customers.',
-        image: '/src/assets/asset-management.png',
+        image: newsImg2,
         size: 'small'
     },
     {
@@ -35,7 +42,7 @@ const newsItems = [
         date: '12 Feb 2024',
         title: 'NATO AQAP 2110: Excellence in Tactical Reliability',
         excerpt: 'Orion Technik renews its commitment to defence readiness with enhanced quality management systems.',
-        image: '/src/assets/engineering-support.png',
+        image: newsImg3,
         size: 'small'
     },
     {
@@ -44,7 +51,7 @@ const newsItems = [
         date: '05 Feb 2024',
         title: 'Green Aviation: Implementing Eco-Efficient MRO Practices',
         excerpt: 'Reducing our carbon footprint through optimized logistics and sustainable component life-cycling.',
-        image: '/src/assets/hero-atr.png',
+        image: newsImg4,
         size: 'wide'
     },
     {
@@ -53,7 +60,7 @@ const newsItems = [
         date: '30 Jan 2024',
         title: 'Rotary Wing Mastery: Expanding our H-Series Capabilities',
         excerpt: 'New specialized tooling and technician certifications approved for advanced helicopter avionics.',
-        image: '/src/assets/hero-bizjet.png',
+        image: newsImg5,
         size: 'small'
     },
     {
@@ -62,7 +69,7 @@ const newsItems = [
         date: '22 Jan 2024',
         title: 'Orion Academy: Nurturing the Next Generation of Engineers',
         excerpt: 'Our scholarship program welcomes 12 new apprentices to the engineering department.',
-        image: '/src/assets/hero-bg-creative.png',
+        image: newsImg6,
         size: 'small'
     }
 ];
